@@ -102,31 +102,40 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\Keith\\Desktop\\ROM\\Development\\UDEMY\\nextjspractice\\components\\user.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 const user = props => __jsx("div", {
+  className: "jsx-200761611",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
 }, __jsx("h1", {
+  className: "jsx-200761611",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
 }, props.name), __jsx("p", {
+  className: "jsx-200761611",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, "Age: ", props.age));
+}, "Age: ", props.age), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  id: "200761611",
+  __self: undefined
+}, "div.jsx-200761611{border:1px solid #eee;box-shadow:0 2p 3px #ccc;padding:20px;text-align:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcS2VpdGhcXERlc2t0b3BcXFJPTVxcRGV2ZWxvcG1lbnRcXFVERU1ZXFxuZXh0anNwcmFjdGljZVxcY29tcG9uZW50c1xcdXNlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPYSxBQUd1QyxzQkFDRyx5QkFDWixhQUNLLGtCQUN0QiIsImZpbGUiOiJDOlxcVXNlcnNcXEtlaXRoXFxEZXNrdG9wXFxST01cXERldmVsb3BtZW50XFxVREVNWVxcbmV4dGpzcHJhY3RpY2VcXGNvbXBvbmVudHNcXHVzZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xyXG5cclxuY29uc3QgdXNlciA9IChwcm9wcykgPT4gKFxyXG4gICAgPGRpdj5cclxuICAgICAgICA8aDE+e3Byb3BzLm5hbWV9PC9oMT5cclxuICAgICAgICA8cD5BZ2U6IHtwcm9wcy5hZ2V9PC9wPlxyXG4gICAgICAgIDxzdHlsZSBqc3g+XHJcbiAgICAgICAgICAgIHtgXHJcbiAgICAgICAgICAgIGRpdiB7XHJcbiAgICAgICAgICAgICAgICBib3JkZXI6IDFweCBzb2xpZCAjZWVlO1xyXG4gICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAycCAzcHggI2NjYztcclxuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHg7XHJcbiAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgIH1gfVxyXG4gICAgICAgIDwvc3R5bGU+XHJcbiAgICA8L2Rpdj5cclxuKTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IHVzZXI7Il19 */\n/*@ sourceURL=C:\\\\Users\\\\Keith\\\\Desktop\\\\ROM\\\\Development\\\\UDEMY\\\\nextjspractice\\\\components\\\\user.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (user);
 
@@ -2007,6 +2016,17 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ }),
 
